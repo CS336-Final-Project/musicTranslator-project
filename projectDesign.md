@@ -60,6 +60,7 @@
       - recentSearches
          - searchID01
          - searchID02
+         - ...
 
 [Example](https://github.com/CS336-Final-Project/musicTranslator-project/blob/main/Docs/DBstructure.png)
 
