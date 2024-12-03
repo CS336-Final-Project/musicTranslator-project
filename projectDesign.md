@@ -43,6 +43,23 @@
   - API Made Available:
 
 ## DB Structure
+### Collections & Documents
+- users
+   - userID
+      - name
+      - primaryLanguage
+      - learningLanguages
+      - recentListen
+         - listenID01
+         - listenID02
+         - ...
+      - likedSongs
+         - likedSong01
+         - likedSong02
+         - ...
+      - recentSearches
+         - searchID01
+         - searchID02
 [Example](https://github.com/CS336-Final-Project/musicTranslator-project/blob/main/Docs/DBstructure.png)
 
 ## Implementation Plan
