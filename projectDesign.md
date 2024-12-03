@@ -11,7 +11,7 @@
     - translations(object): Key-value pair of translations(languageCode: translatedLyrics)
     - currentLanguage(string): Selected language for viewing lyrics
   - API Made Available:
-    - 
+    - ...
 - Player Component
   - Purpose:
     - Provides controls for music playback, including play, pause, skip, and volume adjustments
@@ -22,7 +22,7 @@
     - totalDuration(number): Total duration of the track in seconds or minutes & seconds
     - songID(string): ID of the current song
   - API Made Available:
-    - 
+    - ...
 - MusicCardComponent
   - Purpose:
     - Displays track or artist information in a visually appealing card format
@@ -33,6 +33,7 @@
     - artistName(string): Name of the artist represented by the card
     - albumnArt(string): URL of the album artwork image
   - API Made Available:
+     - ...
 - Search Bar Component:
   - Purpose:
     - Allows users to search for songs, artists, or genres.
@@ -41,6 +42,7 @@
     - query(string): The current query entered by the user
     - searchResults(array of strings): Array of results matching the query
   - API Made Available:
+     - ...
 
 ## DB Structure
 ### Collections & Documents
