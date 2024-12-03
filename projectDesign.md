@@ -43,62 +43,7 @@
   - API Made Available:
 
 ## DB Structure
-{
-    "users": [
-        {
-            "id": "user01",
-            "name": "Tyler Arista",
-            "primaryLanguage": "en",
-            "learningLanguages": ["spanish", "french"],
-            "recentListen": {
-                "recentListen01": {
-                    "songID": "11dFghVXANMlKmJXsNCbNl",
-                    "songName": "Papaoutai",
-                    "artist": "Stromae",
-                    "language": "French",
-                    "genre": "pop",
-                    "learnedLyrics": true
-                },
-                "recentListen02": {
-                    "songID": "",
-                    "songName": "Awl Mara",
-                    "artist": "Hamza Al Mahmdawi",
-                    "language": "Arabic",
-                    "genre": "pop",
-                    "learnedLyrics": false
-                }
-            },
-            "likedSongs": {
-                "saved01": {
-                    "name": "La Patrulla",
-                    "artist": "Peso Pluma",
-                    "genre": "",
-                    "album": "Exodo",
-                    "releaseYear": 2024,
-                    "timestampLiked": "2024-11-30T14:35:00Z"
-                },
-                "saved02": {
-                    "name": "Que Pasaria",
-                    "artist": "Rauw Alejandro",
-                    "genre": "",
-                    "album": "Cosa Nuestra",
-                    "releaseYear": 2024,
-                    "timestampLiked": "2024-11-29T18:20:00Z"
-                }
-            },
-            "recentSearches": {
-                "query01": {
-                    "query": "Christmas Music",
-                    "timestamp": "2024-11-30T14:50:00Z"
-                },
-                "query02": {
-                    "query": "Travis Scott",
-                    "timestamp": "2024-11-29T20:00:00Z"
-                }
-            }
-        }
-    ]
-}
+[Example]('https://github.com/CS336-Final-Project/musicTranslator-project/blob/main/Docs/DBstructure.png')
 
 ## Implementation Plan
 1. Create the nav bar & pages
