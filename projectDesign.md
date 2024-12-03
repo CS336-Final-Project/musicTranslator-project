@@ -117,7 +117,7 @@
     - Lyrics Component
     - Playback Component
   - Profile Page:
-    - 
+    - ...
 6. Style components and finalize user interactions
 
 ## Team Responsibilities
