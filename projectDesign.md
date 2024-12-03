@@ -126,4 +126,4 @@
   - Set up Spotify & MusixMatch API
   - Create API calls to retrieve user information
 - Ha Dong
-  - 
+  - Work on Search & Profile Page
