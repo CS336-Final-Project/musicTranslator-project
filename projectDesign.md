@@ -11,7 +11,7 @@
     - translations(object): Key-value pair of translations(languageCode: translatedLyrics)
     - currentLanguage(string): Selected language for viewing lyrics
   - API Made Available:
-    - 
+    - ...
 - Player Component
   - Purpose:
     - Provides controls for music playback, including play, pause, skip, and volume adjustments
@@ -22,7 +22,7 @@
     - totalDuration(number): Total duration of the track in seconds or minutes & seconds
     - songID(string): ID of the current song
   - API Made Available:
-    - 
+    - ...
 - MusicCardComponent
   - Purpose:
     - Displays track or artist information in a visually appealing card format
@@ -33,6 +33,7 @@
     - artistName(string): Name of the artist represented by the card
     - albumnArt(string): URL of the album artwork image
   - API Made Available:
+     - ...
 - Search Bar Component:
   - Purpose:
     - Allows users to search for songs, artists, or genres.
@@ -41,64 +42,29 @@
     - query(string): The current query entered by the user
     - searchResults(array of strings): Array of results matching the query
   - API Made Available:
+     - ...
 
 ## DB Structure
-{
-    "users": [
-        {
-            "id": "user01",
-            "name": "Tyler Arista",
-            "primaryLanguage": "en",
-            "learningLanguages": ["spanish", "french"],
-            "recentListen": {
-                "recentListen01": {
-                    "songID": "11dFghVXANMlKmJXsNCbNl",
-                    "songName": "Papaoutai",
-                    "artist": "Stromae",
-                    "language": "French",
-                    "genre": "pop",
-                    "learnedLyrics": true
-                },
-                "recentListen02": {
-                    "songID": "",
-                    "songName": "Awl Mara",
-                    "artist": "Hamza Al Mahmdawi",
-                    "language": "Arabic",
-                    "genre": "pop",
-                    "learnedLyrics": false
-                }
-            },
-            "likedSongs": {
-                "saved01": {
-                    "name": "La Patrulla",
-                    "artist": "Peso Pluma",
-                    "genre": "",
-                    "album": "Exodo",
-                    "releaseYear": 2024,
-                    "timestampLiked": "2024-11-30T14:35:00Z"
-                },
-                "saved02": {
-                    "name": "Que Pasaria",
-                    "artist": "Rauw Alejandro",
-                    "genre": "",
-                    "album": "Cosa Nuestra",
-                    "releaseYear": 2024,
-                    "timestampLiked": "2024-11-29T18:20:00Z"
-                }
-            },
-            "recentSearches": {
-                "query01": {
-                    "query": "Christmas Music",
-                    "timestamp": "2024-11-30T14:50:00Z"
-                },
-                "query02": {
-                    "query": "Travis Scott",
-                    "timestamp": "2024-11-29T20:00:00Z"
-                }
-            }
-        }
-    ]
-}
+### Collections & Documents
+- users
+   - userID
+      - name
+      - primaryLanguage
+      - learningLanguages
+      - recentListen
+         - listenID01
+         - listenID02
+         - ...
+      - likedSongs
+         - likedSong01
+         - likedSong02
+         - ...
+      - recentSearches
+         - searchID01
+         - searchID02
+         - ...
+
+[Example](https://github.com/CS336-Final-Project/musicTranslator-project/blob/main/Docs/DBstructure.png)
 
 ## Implementation Plan
 1. Create the nav bar & pages
