@@ -1,6 +1,7 @@
 # Project Design
 ## Preliminary Design
-<embed src="./Docs/PreliminaryDesign.pdf" width="600" height="400" type="application/pdf">
+![Preview of Preliminary Design](PreliminaryDesign-1.png)
+
 ## Description of Components
 - Song Lyrics Component
   - Purpose:
