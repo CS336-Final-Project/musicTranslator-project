@@ -1,6 +1,6 @@
 # Project Design
 ## Preliminary Design
-![Preview of Preliminary Design](PreliminaryDesign-1.png)
+[Preview of Preliminary Design](https://github.com/CS336-Final-Project/musicTranslator-project/blob/main/Docs/PreliminaryDesign-1.png)
 
 ## Description of Components
 - Song Lyrics Component
