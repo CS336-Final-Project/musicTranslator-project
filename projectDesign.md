@@ -5,7 +5,7 @@
 ## Description of Components
 - Song Lyrics Component
   - Purpose:
-    - Displays the lyrics of the current song along with translations in the user’s preferred learning languages
+    - Displays the lyrics of the current song along with translations in the user’s preferred learning languages so users can learn languages in a fun interactive way. 
     - Will display the orignal lyrics on one side & the translated lyrics on the other
   - Data Maintained:
     - songID(string): ID of the current song
@@ -21,6 +21,7 @@
     - currentTime(number): Current playback time in seconds or mintues & seconds
     - totalDuration(number): Total duration of the track in seconds or minutes & seconds
     - songID(string): ID of the current song
+    - nextSong(string): Id of the next song
 - MusicCardComponent
   - Purpose:
     - Displays track or artist information in a visually appealing card format
@@ -61,7 +62,7 @@
 [Example](https://github.com/CS336-Final-Project/musicTranslator-project/blob/main/Docs/DBstructure.png)
 
 ## Implementation Plan
-1. Create the nav bar & pages
+1. Create the nav bar & pages and routing
 2. Implement the authorization component/sign into Spotify
 3. Integrate the Spotify API & MusixMatch API into our application(test to make sure we get resutls)
 4. Integrate Firebase into our application
@@ -82,7 +83,7 @@
   - Profile Page:
     - Searchbar Component
     - Playback Component
-6. Style components and finalize user interactions
+6. Style components using css and finalize user interactions
 
 ## Team Responsibilities
 - Tyler
@@ -91,3 +92,5 @@
   - Create API calls to retrieve user information
 - Ha Dong
   - Work on Search & Profile Page
+  - Refine styling and user interactions for Search Bar & ensure integration with recommendations
+    
