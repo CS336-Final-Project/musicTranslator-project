@@ -12,8 +12,6 @@
     - lyrics(string): Orignal lyrics of the song
     - translations(object): Key-value pair of translations(languageCode: translatedLyrics)
     - currentLanguage(string): Selected language for viewing lyrics
-  - API Made Available:
-    - ...
 - Player Component
   - Purpose:
     - Provides controls for music playback, including play, pause, skip, and volume adjustments
@@ -23,8 +21,6 @@
     - currentTime(number): Current playback time in seconds or mintues & seconds
     - totalDuration(number): Total duration of the track in seconds or minutes & seconds
     - songID(string): ID of the current song
-  - API Made Available:
-    - ...
 - MusicCardComponent
   - Purpose:
     - Displays track or artist information in a visually appealing card format
@@ -34,8 +30,6 @@
     - songName(string): Name of the song represented by the card
     - artistName(string): Name of the artist represented by the card
     - albumnArt(string): URL of the album artwork image
-  - API Made Available:
-     - ...
 - Search Bar Component:
   - Purpose:
     - Allows users to search for songs, artists, or genres.
@@ -43,8 +37,6 @@
   - Data Maintained:
     - query(string): The current query entered by the user
     - searchResults(array of strings): Array of results matching the query
-  - API Made Available:
-     - ...
 
 ## DB Structure
 ### Collections & Documents
@@ -75,17 +67,21 @@
 4. Integrate Firebase into our application
 5. Build the components into our application & design the pages
   - Home Page:
-    - Search Component
+    - Searchbar Component
+    - Playback Component
     - Top Tracks Card Component 
     - Top Artist Card Component
   - Search Page:
-    - Search Component
+    - Searchbar Component
+    - Playback Component
     - Recommendation Component
   - Listen Page:
+    - Searchbar Component
     - Lyrics Component
     - Playback Component
   - Profile Page:
-    - ...
+    - Searchbar Component
+    - Playback Component
 6. Style components and finalize user interactions
 
 ## Team Responsibilities
